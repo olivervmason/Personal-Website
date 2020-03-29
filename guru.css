@@ -1,55 +1,102 @@
-body{
+/* THIS SECTION IS FOR THE BODY OF THE PAGE, THE HIGHEST LEVEL*/
 
+body{
     background-color: yellow;
-    margin: 50px 120px 50px 120px;
-    max-width: 100%;
+    margin: 50px 200px 50px 200px;
     
 }
 
-header{
+/* THIS SECTION IS FOR THE TITLE PART OF THE PAGE */
 
-    padding: 10px 70px 10px 10px;
+header{
+    padding: 20px 20px 20px 20px;
     background-color: green;
     font-size: 40px;
     color: white;
     text-align: center;
     border: 3px solid black;
-    min-width: 800px;
-}
-
-article{
-    max-width: 100%;
     min-width: 850px;
-    margin-top: 50px;
-    margin: 50px 20px 50px 20px;
-    padding: 20px 20px 20px 20px;
-    background-color: blue;
-    display: flex;                              
-    justify-content: center;                    
-    font-size: 25px;
+}
+
+/* THIS SECTION IS FOR THE MENU ONLY */
+
+menu{
+    /* Generic styling */
+    background-color: purple;
+    padding-left: 75px;
+    padding-right: 75px;
+    border: solid 2px red;
+    font-size: 30px;
+    min-width: 792px;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between ;
+}
+
+menu p{
+    /* Generic styling */
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lime;
+    border: solid 2px red;
     color: white;
-    text-align: justify;
-    border: 3px solid black;
-
-}
-    
-.text_lhs{
-
-        border: 5px solid red;
-        margin: 20px;
-        min-width: 300px;
 }
 
-.pic_rhs{ 
-        /* width:30%;
-        height:auto; */
-        max-height: 100%;
-        margin: 20px 20px 20px 20px;
-        border: 5px solid red;
-        background: clear;
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-        align-items:center;                           
+menu p:hover{
+    /* Generic styling */
+    cursor: cell;
+    background-color: tomato;
+    transition: 1s;
+}
+
+/* THIS SECTION IS FOR PARAGRAPHS WITH A PICTURE TO THE SIDE */
+
+@media(min-width: 800px){
+        article{
+            /* Generic styling */
+            border: 3px solid black;
+            margin-top: 30px;
+            padding: 20px 20px 20px 20px;
+            background-color: blue;                                  
         
+            max-width: 100%;
+            min-width: 850px;
+        
+            font-size: 25px;
+            color: white;
+            text-align: justify;
+            justify-content: center;                    
+        
+            /* Flexbox */
+            display: flex;
+        
+        }
+        
+        .text_lhs{
+            /* Generic styling */
+            border: 5px solid red;
+            margin: 20px;
+            /* min-width: 300px;  */
+            
+            /* Flexbox */
+            flex: 2;
+        }
+        
+        .pic_rhs{ 
+            /* Generic styling */
+            border: 5px solid red;
+            margin: 20px;
+            background: clear;
+            text-align: center;
+            
+            
+            /* Flexbox */
+            flex: 1;
+            display: flex end;
+            justify-content: center;
+            align-items:center;
+        }
+        
+       
 }
+
