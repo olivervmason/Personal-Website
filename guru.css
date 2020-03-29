@@ -51,49 +51,48 @@ menu p:hover{
 
 /* THIS SECTION IS FOR PARAGRAPHS WITH A PICTURE TO THE SIDE */
 
-@media(min-width: 800px){
-        article{
-            /* Generic styling */
-            border: 3px solid black;
-            margin-top: 30px;
-            padding: 20px 20px 20px 20px;
-            background-color: blue;                                  
-        
-            max-width: 100%;
-            min-width: 850px;
-        
-            font-size: 25px;
-            color: white;
-            text-align: justify;
-            justify-content: center;                    
-        
-            /* Flexbox */
-            display: flex;        
-        }
-        
-        .text_lhs{
-            /* Generic styling */
-            border: 5px solid red;
-            margin: 20px;
-            /* min-width: 300px;  */
-            
-            /* Flexbox */
-            flex: 2;
-        }
-        
-        .pic_rhs{ 
-            /* Generic styling */
-            border: 5px solid red;
-            margin: 20px;
-            background: clear;
-            text-align: center;
-            
-            /* Flexbox */
-            flex: 1;
-            display: flex end;
-            justify-content: center;
-            align-items:center;
-        }
-          
+article{
+    /* Generic styling */
+    border: 3px solid black;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: blue;                                  
+
+    max-width: 100%;
+    min-width: 850px;
+
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    justify-content: center;                    
+
+    /* Flexbox */
+    display: flex;        
 }
+
+.text_lhs{
+    /* Generic styling */
+    border: 5px solid red;
+    margin: 20px;
+    /* min-width: 300px;  */
+    
+    /* Flexbox */
+    flex: 2;
+}
+
+.pic_rhs{ 
+    /* Generic styling */
+    border: 5px solid red;
+    margin: 20px;
+    background: clear;
+    text-align: center;
+    
+    /* Flexbox */
+    flex: 1;
+    display: flex end;
+    justify-content: center;
+    align-items:center;
+}
+          
+
 
