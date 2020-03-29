@@ -68,8 +68,7 @@ menu p:hover{
             justify-content: center;                    
         
             /* Flexbox */
-            display: flex;
-        
+            display: flex;        
         }
         
         .text_lhs{
@@ -89,14 +88,12 @@ menu p:hover{
             background: clear;
             text-align: center;
             
-            
             /* Flexbox */
             flex: 1;
             display: flex end;
             justify-content: center;
             align-items:center;
         }
-        
-       
+          
 }
 
