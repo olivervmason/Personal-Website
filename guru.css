@@ -1,36 +1,58 @@
 /* THIS SECTION IS FOR THE BODY OF THE PAGE, THE HIGHEST LEVEL*/
 
+.wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    /* max-width: 1000px; */
+    position: relative;
+}
+
 body{
     background-color: yellow;
-    margin: 50px 200px 50px 200px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px 5% 50px 5%;
 }
 
 /* THIS SECTION IS FOR THE TITLE PART OF THE PAGE */
 
 header{
+    /* position: relative; */
+    width: 100%;
     padding: 20px 20px 20px 20px;
     background-color: green;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     text-align: center;
     border: 3px solid black;
-    min-width: 850px;
+    box-sizing: border-box;
+    /* min-width: 850px; */
 }
 
 /* THIS SECTION IS FOR THE MENU ONLY */
 
 menu{
     /* Generic styling */
+    /* margin: 0px 75px 0px 75px; */
+    top: 0px;
+    box-sizing: border-box;
     background-color: purple;
     padding-left: 75px;
     padding-right: 75px;
     border: solid 2px red;
-    font-size: 30px;
-    min-width: 792px;
+    font-size: 20px;
+    width: 100%;
+    position: sticky;
     /* Flexbox */
     display: flex;
     justify-content: space-between ;
+    flex-wrap: wrap;
 }
 
 menu p{
@@ -54,20 +76,21 @@ menu p:hover{
 article{
     /* Generic styling */
     border: 3px solid black;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 20px 20px 20px 20px;
     background-color: blue;                                  
+    box-sizing: border-box;
+    width: 100%;
+    /* min-width: 850px; */
 
-    max-width: 100%;
-    min-width: 850px;
-
-    font-size: 25px;
+    font-size: 1.2em;
     color: white;
     text-align: justify;
     justify-content: center;                    
 
     /* Flexbox */
-    display: flex;        
+    display: flex; 
+    flex-direction: row;           
 }
 
 .text_lhs{
@@ -89,10 +112,23 @@ article{
     
     /* Flexbox */
     flex: 1;
-    display: flex end;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
 }
           
+@media only screen and (max-width: 768px) {
+    article {        
+    flex-direction: column;
 
+
+    }
+
+
+    menu{
+        position: static;
+
+    }
+    }
 
