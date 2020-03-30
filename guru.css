@@ -29,9 +29,9 @@ header{
     font-family: 'Chicle', cursive;
     width: 100%;
     padding: 5px 20px 5px 20px;
-    background-color: blue;
+    background-color: lightskyblue;
     font-size: 2em;
-    color: white;
+    color: black;
     text-align: center;
     border: 3px solid red;
     box-sizing: border-box;
@@ -45,7 +45,7 @@ menu{
     top: 0px;
     margin-top: 0px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: lightskyblue;
     padding-left: 75px;
     padding-right: 75px;
     border: solid 2px red;
@@ -64,7 +64,7 @@ menu p{
     padding: 5px 5px 5px 5px ;
     /* padding-left: 5px;
     padding-right: 5px; */
-    background-color: lime;
+    background-color: lightskyblue;
     border: solid 2px red;
     color: red;
 }
@@ -73,7 +73,7 @@ menu p:hover{
     /* Generic styling */
     cursor: cell;
     padding: 5px 18px 5px 18px ;
-    background-color: tomato;
+    background-color: orange;
     transition: 1s;
 }
 
@@ -84,7 +84,7 @@ article{
     border: 3px solid red;
     margin-top: 30px;
     padding: 20px 20px 20px 20px;
-    background-color: blue;                                  
+    background-color: clear;                                  
     box-sizing: border-box;
     width: 100%;
     font-size: 1em;
@@ -99,6 +99,8 @@ article{
 
 .text_lhs{
     /* Generic styling */
+    background-color: lightskyblue;
+    color: black;
     border: 5px solid red;
     margin: 20px;
 
@@ -108,6 +110,8 @@ article{
 
 .pic_rhs{ 
     /* Generic styling */
+    background-color: lightskyblue;
+    color: black;
     border: 5px solid red;
     margin: 20px;
     background: clear;
@@ -139,12 +143,13 @@ article{
 .spread{
     border: 5px solid red;
     /* margin: 20px; */
-    background-color: green;
+    background-color: clear;
     flex-direction: column;
 }
 
 .spreadtext{
     color: black;
+    background-color: lightskyblue;
     margin: 20px;
     font-size: 1.2em;
 }
@@ -162,7 +167,7 @@ article{
     width: 100%;
     color: black;
     background-color: cyan;
-    border: 2px solid blue;
+    border: 2px solid red;
 }
 
 
