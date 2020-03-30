@@ -5,14 +5,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     width: 100%;
     /* max-width: 1000px; */
     position: relative;
 }
 
 body{
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: url(https://images.pexels.com/photos/219998/pexels-photo-219998.jpeg?cs=srgb&dl=beach-birds-calm-clouds-219998.jpg&fm=jpg);
+    background-image: cover;
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,13 +26,14 @@ body{
 
 header{
     /* position: relative; */
+    font-family: 'Chicle', cursive;
     width: 100%;
-    padding: 20px 20px 20px 20px;
-    background-color: green;
-    font-size: 3em;
+    padding: 5px 20px 5px 20px;
+    background-color: blue;
+    font-size: 2em;
     color: white;
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid red;
     box-sizing: border-box;
     /* min-width: 850px; */
 }
@@ -42,11 +45,11 @@ menu{
     top: 0px;
     margin-top: 0px;
     box-sizing: border-box;
-    background-color: purple;
+    background-color: blue;
     padding-left: 75px;
     padding-right: 75px;
     border: solid 2px red;
-    font-size: 1.2em;
+    font-size: 1.5em;
     width: 100%;
     position: sticky;
     
@@ -63,7 +66,7 @@ menu p{
     padding-right: 5px; */
     background-color: lime;
     border: solid 2px red;
-    color: white;
+    color: red;
 }
 
 menu p:hover{
@@ -78,13 +81,13 @@ menu p:hover{
 
 article{
     /* Generic styling */
-    border: 3px solid black;
+    border: 3px solid red;
     margin-top: 30px;
     padding: 20px 20px 20px 20px;
     background-color: blue;                                  
     box-sizing: border-box;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     text-align: justify;
     justify-content: center;                    
@@ -135,17 +138,15 @@ article{
 
 .spread{
     border: 5px solid red;
-    margin: 20px;
+    /* margin: 20px; */
     background-color: green;
     flex-direction: column;
 }
 
 .spreadtext{
-
-    color: red;
+    color: black;
     margin: 20px;
-    /* display:flex; */
-    /* flex-direction: row; */
+    font-size: 1.2em;
 }
 
 .spreadtext-div{
@@ -162,7 +163,6 @@ article{
     color: black;
     background-color: cyan;
     border: 2px solid blue;
-    margin: 20px;
 }
 
 
