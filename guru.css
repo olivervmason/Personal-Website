@@ -27,7 +27,7 @@ header{
     width: 100%;
     padding: 20px 20px 20px 20px;
     background-color: green;
-    font-size: 35px;
+    font-size: 3em;
     color: white;
     text-align: center;
     border: 3px solid black;
@@ -39,16 +39,17 @@ header{
 
 menu{
     /* Generic styling */
-    /* margin: 0px 75px 0px 75px; */
     top: 0px;
+    margin-top: 0px;
     box-sizing: border-box;
     background-color: purple;
     padding-left: 75px;
     padding-right: 75px;
     border: solid 2px red;
-    font-size: 20px;
+    font-size: 1.2em;
     width: 100%;
     position: sticky;
+    
     /* Flexbox */
     display: flex;
     justify-content: space-between ;
@@ -57,8 +58,9 @@ menu{
 
 menu p{
     /* Generic styling */
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px 5px 5px 5px ;
+    /* padding-left: 5px;
+    padding-right: 5px; */
     background-color: lime;
     border: solid 2px red;
     color: white;
@@ -67,6 +69,7 @@ menu p{
 menu p:hover{
     /* Generic styling */
     cursor: cell;
+    padding: 5px 18px 5px 18px ;
     background-color: tomato;
     transition: 1s;
 }
@@ -76,14 +79,12 @@ menu p:hover{
 article{
     /* Generic styling */
     border: 3px solid black;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 20px 20px 20px 20px;
     background-color: blue;                                  
     box-sizing: border-box;
     width: 100%;
-    /* min-width: 850px; */
-
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
     text-align: justify;
     justify-content: center;                    
@@ -97,8 +98,7 @@ article{
     /* Generic styling */
     border: 5px solid red;
     margin: 20px;
-    /* min-width: 300px;  */
-    
+
     /* Flexbox */
     flex: 2;
 }
@@ -122,13 +122,47 @@ article{
     article {        
     flex-direction: column;
 
-
     }
-
 
     menu{
         position: static;
 
     }
-    }
+}
+
+/* THIS SECTION IS FOR PARAGRAPHS WRAPPED AROUND TEXT */
+
+
+.spread{
+    border: 5px solid red;
+    margin: 20px;
+    background-color: green;
+    flex-direction: column;
+}
+
+.spreadtext{
+
+    color: red;
+    margin: 20px;
+    /* display:flex; */
+    /* flex-direction: row; */
+}
+
+.spreadtext-div{
+    border: 2px solid red;
+}
+
+.spreadtext-img{
+    border: 2px solid red;
+    float:left;
+}
+
+.FW{
+    width: 100%;
+    color: black;
+    background-color: cyan;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
 
