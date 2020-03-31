@@ -103,6 +103,7 @@ article{
     color: black;
     border: 5px solid black;
     margin: 20px;
+    padding:10px;
 
     /* Flexbox */
     flex: 1;
@@ -176,6 +177,7 @@ article{
     background-color: antiquewhite;
     border: 2px solid black;
     margin-top: 20px;
+    text-align: center;
 }
 
 .cent{
@@ -197,5 +199,6 @@ article{
     width: 70%;
     background-color: antiquewhite;
     color: black ;
+    padding: 10px;
 }
 
