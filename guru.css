@@ -29,7 +29,7 @@ header{
     font-family: 'Chicle', cursive;
     width: 100%;
     padding: 5px 20px 5px 20px;
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     font-size: 2em;
     color: black;
     text-align: center;
@@ -45,7 +45,7 @@ menu{
     top: 0px;
     margin-top: 0px;
     box-sizing: border-box;
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     padding-left: 75px;
     padding-right: 75px;
     border: solid 2px red;
@@ -64,7 +64,7 @@ menu p{
     padding: 5px 5px 5px 5px ;
     /* padding-left: 5px;
     padding-right: 5px; */
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     border: solid 2px red;
     color: red;
 }
@@ -99,7 +99,7 @@ article{
 
 .text_lhs{
     /* Generic styling */
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     color: black;
     border: 5px solid red;
     margin: 20px;
@@ -110,7 +110,7 @@ article{
 
 .pic_rhs{ 
     /* Generic styling */
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     color: black;
     border: 5px solid red;
     margin: 20px;
@@ -154,7 +154,7 @@ article{
     justify-content: space-between;
     /* box-sizing: border-box; */
     color: black;
-    background-color: lightskyblue;
+    background-color: antiquewhite;
     margin-bottom: 40px;
     font-size: 1.2em;
 }
@@ -167,14 +167,35 @@ article{
     border: 2px solid red;
     width: 10%;
     float:left;
-    background-color: lightskyblue;
+    background-color: antiquewhite;
 }
 
 .FW{
     width: 100%;
     color: black;
-    background-color: cyan;
+    background-color: antiquewhite;
     border: 2px solid red;
+    margin-top: 20px;
 }
 
+.cent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cent-pic{
+    width: 40%;
+    border: solid 2px red;
+    margin-top: 20px;    
+}
+
+.centred-text{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    border: solid 2px red;
+    width: 70%;
+    background-color: antiquewhite;
+    color: black ;
+}
 
