@@ -33,7 +33,7 @@ header{
     font-size: 2em;
     color: black;
     text-align: center;
-    border: 3px solid red;
+    border: 3px solid black;
     box-sizing: border-box;
     /* min-width: 850px; */
 }
@@ -48,7 +48,7 @@ menu{
     background-color: antiquewhite;
     padding-left: 75px;
     padding-right: 75px;
-    border: solid 2px red;
+    border: solid 2px black;
     font-size: 1.5em;
     width: 100%;
     position: sticky;
@@ -65,7 +65,7 @@ menu p{
     /* padding-left: 5px;
     padding-right: 5px; */
     background-color: antiquewhite;
-    border: solid 2px red;
+    border: solid 2px black;
     color: red;
 }
 
@@ -81,7 +81,7 @@ menu p:hover{
 
 article{
     /* Generic styling */
-    border: 3px solid red;
+    border: 3px solid clear;
     margin-top: 30px;
     padding: 20px 20px 20px 20px;
     background-color: clear;                                  
@@ -101,7 +101,7 @@ article{
     /* Generic styling */
     background-color: antiquewhite;
     color: black;
-    border: 5px solid red;
+    border: 5px solid black;
     margin: 20px;
 
     /* Flexbox */
@@ -112,7 +112,7 @@ article{
     /* Generic styling */
     background-color: antiquewhite;
     color: black;
-    border: 5px solid red;
+    border: 5px solid black;
     margin: 20px;
     background: clear;
     text-align: center;
@@ -141,7 +141,7 @@ article{
 
 
 .spread{
-    border: 5px solid red;
+    border: 5px solid clear;
     /* margin: 20px; */
     background-color: clear;
     flex-direction: column;
@@ -160,11 +160,11 @@ article{
 }
 
 .spreadtext-div{
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 .spreadtext-img{
-    border: 2px solid red;
+    border: 2px solid clear;
     width: 10%;
     float:left;
     background-color: antiquewhite;
@@ -174,7 +174,7 @@ article{
     width: 100%;
     color: black;
     background-color: antiquewhite;
-    border: 2px solid red;
+    border: 2px solid black;
     margin-top: 20px;
 }
 
@@ -186,14 +186,14 @@ article{
 
 .cent-pic{
     width: 40%;
-    border: solid 2px red;
+    border: solid 2px black;
     margin-top: 20px;    
 }
 
 .centred-text{
     margin-top: 20px ;
     margin-bottom: 20px;
-    border: solid 2px red;
+    border: solid 2px black;
     width: 70%;
     background-color: antiquewhite;
     color: black ;
